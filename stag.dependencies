@@ -31,5 +31,11 @@
     "repository": "android_vendor_google_pixelparts",
     "target_path": "vendor/google/pixelparts",
     "remote": "gitlab-stag"
+  },
+  {
+    "repository": "StatiXOS/android_vendor_google_interfaces",
+    "target_path": "vendor/google/interfaces",
+    "remote": "github",
+    "branch": "tm-qpr1"
   }
 ]
