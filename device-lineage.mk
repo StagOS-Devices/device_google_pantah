@@ -152,5 +152,7 @@ PRODUCT_PACKAGES += \
     com.google.hardware.pixel.display-V4-ndk.vendor:64 \
     com.google.hardware.pixel.display-V5-ndk.vendor
 
-# PixelParts (Only for camera)
-$(call inherit-product-if-exists, vendor/google/pixelparts/pixelparts.mk)
+ifeq ($(WITH_GAPPS),true)
+  # PixelParts (Only for camera)
+  $(call inherit-product-if-exists, vendor/google/pixelparts/pixelparts.mk)
+endif
