@@ -5,7 +5,7 @@
 #
 
 # Overlays
-DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay-lineage
+DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay-stag
 
 # EUICC
 PRODUCT_COPY_FILES += \
@@ -151,3 +151,6 @@ PRODUCT_PACKAGES += \
     android.hardware.wifi@1.6.vendor:64 \
     com.google.hardware.pixel.display-V4-ndk.vendor:64 \
     com.google.hardware.pixel.display-V5-ndk.vendor
+
+# PixelParts (Only for camera)
+$(call inherit-product-if-exists, vendor/google/pixelparts/pixelparts.mk)
