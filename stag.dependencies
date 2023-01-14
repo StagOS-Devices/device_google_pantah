@@ -4,30 +4,6 @@
     "target_path": "device/google/gs201"
   },
   {
-    "repository": "android_hardware_google_gchips",
-    "target_path": "hardware/google/gchips",
-    "remote": "lineage",
-    "branch": "lineage-20.0"
-  },
-  {
-    "repository": "android_hardware_google_graphics_common",
-    "target_path": "hardware/google/graphics/common",
-    "remote": "lineage",
-    "branch": "lineage-20.0"
-  },
-  {
-    "repository": "android_hardware_google_pixel",
-    "target_path": "hardware/google/pixel",
-    "remote": "lineage",
-    "branch": "lineage-20.0"
-  },
-  {
-    "repository": "android_hardware_google_pixel-sepolicy",
-    "target_path": "hardware/google/pixel-sepolicy",
-    "remote": "lineage",
-    "branch": "lineage-20.0"
-  },
-  {
     "repository": "android_vendor_google_pixelparts",
     "target_path": "vendor/google/pixelparts",
     "remote": "gitlab-stag"
