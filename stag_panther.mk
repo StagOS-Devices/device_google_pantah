@@ -14,6 +14,8 @@ $(call inherit-product, device/google/gs201/lineage_common.mk)
 
 include device/google/pantah/panther/device-lineage.mk
 
+TARGET_FACE_UNLOCK_SUPPORTED := false
+
 # Device identifier. This must come after all inclusions
 PRODUCT_BRAND := google
 PRODUCT_MODEL := Pixel 7
