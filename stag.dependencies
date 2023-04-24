@@ -12,6 +12,6 @@
     "repository": "StatiXOS/android_vendor_google_interfaces",
     "target_path": "vendor/google/interfaces",
     "remote": "github",
-    "branch": "tm-qpr1"
+    "branch": "tm-qpr2"
   }
 ]
